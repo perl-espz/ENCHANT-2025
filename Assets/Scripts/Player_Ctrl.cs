@@ -23,6 +23,16 @@ public class Player_Ctrl : MonoBehaviour
 
            }
 
+        if (horizontal == 0 && vertical == 0)
+        {
+            anim.SetBool("isWalking", false);
+        }
+        else
+        {
+            anim.SetBool("isWalking", true);
+        }
+
+
         anim.SetFloat("horizontal", horizontal);
         anim.SetFloat("vertical", vertical);
 

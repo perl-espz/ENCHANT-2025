@@ -11,5 +11,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/OpenGameScene.unity
     guid: 506a8290a3287954aa8c6c2add11905f
+  - enabled: 1
+    path: Assets/Scenes/Puzzle.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Battle.unity
+    guid: 07a964af311fd20428f5665492dd7e6d
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
